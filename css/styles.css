@@ -1,0 +1,21 @@
+.initial-showing {
+  display: none;
+  border:solid red 1px;
+}
+img{
+  width:100%;
+  height:40%;
+}
+body{
+  background-color: black;
+  color:white;
+}
+
+p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
