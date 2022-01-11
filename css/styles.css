@@ -1,14 +1,16 @@
 
 .green-background {
-  background-color: green;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
 .yellow-background {
-  background-color: yellow;
+  background: linear-gradient(0.25turn, #3fa697, #ebf8e1, #f6cb3c);
 }
 
 .red-background {
-  background-color: red;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f65e3c);
 }
 
 .initial-showing {
@@ -39,8 +41,8 @@ img{
 }
 
 body{
-  /* background-color: black; */
-  color:white;
+  color:rgb(85, 78, 78);
+  padding: 20%;
 }
 
 p {
